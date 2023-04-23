@@ -1,3 +1,17 @@
+# English 
+This is a news website where you can publish amusing fake news. It utilizes Angular as a frontend and Firebase as a server-side service for functions such as authentication and database management.
+Link : https://funny-news-bc.web.app/
+
+For communication, your advices and cooperation : berkay.cetinkaya@tedu.edu.tr
+# Turkish
+
+Bu proje gerçek dışı haberlerin paylaşılabildiği, üyelik oluşturulup giriş yapılabilen Firebase'in kullanıma sunduğu "Hosting", "Authentication" ,"Storage" gibi özelliklerini kullanarak oluşturulmuş bir web sitesidir.
+
+Link : https://funny-news-bc.web.app/
+
+ İş birliği ve iletişim için : berkay.cetinkaya@tedu.edu.tr
+
+
 # FunnyNews
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.5.
