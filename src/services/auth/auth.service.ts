@@ -14,8 +14,6 @@ export class AuthService {
 b:any;
   constructor(private aufs:AngularFireAuth,private afm:AngularFireModule) {
 
-
-
   }
 
   db:any = {};
