@@ -1,0 +1,41 @@
+
+
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary" style="background-color: #e7e9eb;">
+
+
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" routerLink="/home">Ana Sayfa</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/news" >Haberler</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/images">Resim Arşivi</a>
+        </li>
+
+
+
+
+
+
+
+      </ul>
+    </div>
+  </div>
+  <div *ngIf="issignInAtFirebase()" id="addWish"><button  routerLink="/wishes" class="btn btn-success" ><a id="wishfont">İstek Yaz</a> </button></div>
+  <div *ngIf="issignInAtFirebase()" id="addNews"><button  routerLink="/addNews" class="btn btn-success" ><a id="newsFont">Haber Ekle</a> </button></div>
+<div *ngIf="issignInAtFirebase()" id="settings"><button  routerLink="/userSettings" class="btn btn-success" >Ayarlar</button></div>
+  <div *ngIf="issignInAtFirebase()" id="signout"><button (click)="signOut()"  type="submit" class="btn btn-success" >Çıkış</button></div>
+</nav>
+
+
+
+

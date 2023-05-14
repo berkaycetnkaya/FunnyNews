@@ -1,0 +1,23 @@
+#signout{
+  display: flex;
+  justify-content:flex-end;
+}
+
+#settings{
+
+  margin-right: 10px;
+}
+
+#addNews{
+font-size: x-small;
+  margin-right: 20px;
+}
+
+#addWish{
+  font-size: x-small;
+    margin-right: 20px;
+  }
+
+#newsFont{
+  font-size: 15px;
+}

@@ -19,3 +19,19 @@ const firebaseConfig = {
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
+
+
+import { getAuth, signOut } from "firebase/auth";
+export const environment = {
+
+  production: false,
+  firebase: {
+    apiKey: "AIzaSyDgqjSi9QAaMsnYtSj9oH0PGYzg4UiRCZc",
+  authDomain: "funny-news-bc.firebaseapp.com",
+  projectId: "funny-news-bc",
+  storageBucket: "funny-news-bc.appspot.com",
+  messagingSenderId: "573200029841",
+  appId: "1:573200029841:web:d21949f39cf6a321e54730",
+  measurementId: "G-7BN3P9672L"
+  }
+};
